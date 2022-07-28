@@ -1,0 +1,30 @@
+.p-margin {
+    margin-left: 280px;
+    margin-right: 300px;
+    color: rgb(51, 49, 49);
+}
+
+.h1-margin {
+    margin-left: 280px;
+    margin-right: 300px;
+    font-weight: 700;
+}
+
+.slider-margin-2 {
+    margin-bottom: 150px;
+}
+
+.slider-margin {
+    margin-bottom: 50px;
+}
+
+.h-title {
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.course-flex {
+    display: flex;
+}
