@@ -208,7 +208,7 @@
         <!-- modal starts -->
         <div class="container">
             <div class="row g-2">
-                <div class="col-lg-12">
+                <div class="col-lg-12 col-sm-12 col-md-12">
                     <div class="p-3 border bg-primary d-flex align-items-center text-white border rounded"
                         style="height:200px">
                         <div class="ms-5">
@@ -249,6 +249,91 @@
                 </div>
             </div>
             <!-- modal ends -->
+
+            <div class="mt-5  text-center">
+                <h1>Frequently asked question</h1>
+                <p>Normally people asked this kind of question and got their answer </p>
+            </div>
+
+            <!-- accordion starts -->
+            <section class="container mt-5" style="width:700px;">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                What are the differences between flex box and grid?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Flexbox can optionally wrap. If we allow a flex container to
+                                wrap, they will wrap down onto another row when the flex items fill a row. Where they
+                                line up on the next row is independent of what happenned on the first row, allowing for
+                                a masonry-like look. Grid can also optionally wrap (if we allow auto filling) in the
+                                sense that items can fill a row and move to the new row (or auto place themselves), but
+                                as they do, they will fall along the same grid lines all the other elements do.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                What are the differences between bootstrap and tailwind?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">There are several differences between Tailwind CSS and Bootstrap
+                                CSS. Both frameworks are open-source and are designed for utility and responsive mobile
+                                web development. Bootstrap provides HTML, CSS, and JavaScript design templates for a
+                                variety of interface components. Tailwind CSS has a utility-first framework. You can use
+                                it like regular CSS, but it includes a number of new features.While both frameworks
+                                offer a lot of similarity, the main difference is the degree of customization you can do
+                                with them. Tailwind is much more flexible and allows you to add prefixes and utility
+                                classes to your CSS files, while Bootstrap is not flexible enough.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                What is CSS box model?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">The CSS box model is a container that contains multiple
+                                properties including borders, margin, padding, and the content itself. It is used to
+                                create the design and layout of web pages. It can be used as a toolkit for customizing
+                                the layout of different elements. The web browser renders every element as a rectangular
+                                box according to the CSS box model. Box-Model has multiple properties in CSS.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                What is a semantic tag?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">A semantic tag in HTML is a tag whose name clearly describes its
+                                purpose and content. The HTML semantics refers to the tags that provide meaning to an
+                                HTML page rather than just presentation. It makes HTML more comprehensible by better
+                                defining the different sections and layout of web pages. The core characteristic of a
+                                semantic element is that it clearly communicated its meaning to both the developer and
+                                the browser.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- accordion ends -->
     </main>
 
     <!-- main part ends -->
