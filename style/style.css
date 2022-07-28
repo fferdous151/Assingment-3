@@ -38,3 +38,17 @@
 .p-p {
     color: grey;
 }
+
+.see-more {
+    padding: 25px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.p-join {
+    width: 500px;
+}
+
+.btn-reg {
+    margin-left: 300px;
+}
